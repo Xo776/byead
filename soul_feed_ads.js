@@ -13,6 +13,8 @@
 let body = $response.body;
 if (body) {
     try {
+        // 去掉 chunked 编码前缀（如 "a2dc\n"）
+        body = body.replace(/^[0-9a-fA-F]+\r?\n/, '');
         let obj = JSON.parse(body);
         
         // 递归过滤广告帖子
