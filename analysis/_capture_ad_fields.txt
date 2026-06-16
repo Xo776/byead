@@ -1,0 +1,16 @@
+[1977] https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece948997%22%2C%22--%22%2C%22Apple%22%2C%22iO
+  markers: ['bizId', 'recCardType']
+  ctx: ...bizId":"388","contentVO":{"icon":{"dayUrl":"https://china-img.soulapp.cn/admin/2024-0...
+  ctx: ...recCardType":0,"authorChatFc":1,"recReasonList":[],"labelList":[20482,3010,5010,1013,87,100...
+
+[2117] https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece94ff78%22%2C%22--%22%2C%22Apple%22%2C%22iO
+  markers: ['recCardType']
+  ctx: ...recCardType":0,"authorChatFc":1,"recReasonList":[],"labelList":[1000076,1000041,1000039,100...
+
+[2132] https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece9506a4%22%2C%22--%22%2C%22Apple%22%2C%22iO
+  markers: ['recCardType']
+  ctx: ...recCardType":0,"authorChatFc":1,"recReasonList":[],"labelList":[20482,3010,5030,20359,3016,...
+
+[2149] https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece950d67%22%2C%22--%22%2C%22Apple%22%2C%22iO
+  markers: ['recCardType']
+  ctx: ...recCardType":0,"authorChatFc":1,"recReasonList":[],"labelList":[20482,3010,20135,1000007,30...

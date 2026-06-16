@@ -1,4 +1,4 @@
-# Soul 广告拦截清单 v0.3
+# Soul 广告拦截清单 v0.4
 
 更新时间：2026-06-16  
 规则文件：`soul_ads.conf`  
@@ -10,7 +10,7 @@
 | `soul_ssp_ads.js` | 返回 `{}` |
 | `soul_sdk_ads.js` | 返回 SDK 错误 JSON，废掉广告模块 |
 | `soul_popup_ads.js` | 过滤弹窗配置中的广告 bizCode |
-| `soul_feed_ads.js` | 从广场 feed 响应中删除广告帖 |
+| `soul_feed_ads.js` | 从广场 feed 响应中删除广告帖（含 GDT 原生广告位） |
 
 ---
 
@@ -49,7 +49,9 @@
 | `handshake.gtnetwork.soulapp.cn` | 网络握手 | 空 JSON |
 | `soul-permanent.soulapp.cn` | 永久配置 | 空 JSON |
 | `api-a.soulapp.cn/.../popup/allConfig` | 全局弹窗配置（开屏/插屏/积分） | 过滤 AD_* |
-| `post.soulapp.cn/.../recommended` 等 | 广场/城市广场推荐流 | 过滤伪装帖 |
+| `post.soulapp.cn/.../recommended` 等 | 广场/城市广场推荐流 | 过滤伪装帖 + 原生广告位 |
+| `post.soulapp.cn/.../recommend/vas/` | VAS 原生广告帖推荐 | 空 JSON |
+| `*.soulapp.cn/api/ad/` | 广告策略/槽位配置（strategyApi 等） | 空 JSON |
 | `gateway-mobile-gray.soulapp.cn/sculptor/` | 灰度推荐引擎 | 过滤伪装帖 |
 | `api-ucc.soulapp.cn/app/apollo/` | Apollo 特性开关 | 空 JSON |
 | `media-service.soulapp.cn` | 媒体/广告 CDN | 空 JSON |
@@ -80,7 +82,11 @@
 
 | 域名 | 用途 |
 |------|------|
-| `mi.gdt.qq.com` | GDT SDK API |
+| `mi.gdt.qq.com` | GDT SDK API（Android） |
+| `sdk.e.qq.com` | GDT SDK API（**iOS**，v0.4 新增） |
+| `qzs.gdtimg.com` | 广点通素材 CDN（v0.4 新增） |
+| `httpring.qq.com` | 广点通上报（v0.4 新增） |
+| `adsmis.qq.com` | 广点通 MIS（v0.4 新增） |
 | `*.gdt.qq.com` | 广点通全家桶 |
 | `pgdt.gtimg.com` / `.cn` | 广点通素材 CDN |
 | `mmgr.gtimg.com` | 广点通管理 |

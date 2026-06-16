@@ -1,7 +1,7 @@
 /**
- * Soul 广告SDK直连阻断 v1.0
- * 拦截 Pangle/GDT SDK 的广告请求API，返回错误码使SDK停止请求
- * 参考: app2smile/rules adsense.js 成熟方案
+ * Soul 广告SDK直连阻断 v1.1
+ * 拦截 Pangle/GDT SDK 的广告请求 API，返回错误码使 SDK 停止请求
+ * v1.1：补 iOS 广点通 sdk.e.qq.com / c.gdt.qq.com 等端点
  */
 const url = $request.url;
 const method = $request.method;
@@ -9,13 +9,18 @@ if (!$response.body) {
     $done({});
 }
 
-let body = JSON.parse($response.body);
+let body;
+try {
+    body = JSON.parse($response.body);
+} catch (e) {
+    $done({});
+}
 
 // 穿山甲 Pangle - get_ads API (POST)
 if ((url.includes("api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk")
      || url.includes("is.snssdk.com/api/ad/union/sdk"))
     && method === "POST") {
-    if (body.message) {
+    if (body.message !== undefined || body.status_code !== undefined) {
         body = {
             "request_id": body.request_id || "",
             "status_code": 20001,
@@ -24,10 +29,10 @@ if ((url.includes("api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk")
         };
     }
 }
-// 广点通 GDT/优量汇 (GET)
-else if (url.includes("mi.gdt.qq.com") && method === "GET") {
-    if (body.ret === 0) {
-        body.ret = 102006;
+// 广点通 GDT/优量汇 — Android mi.gdt + iOS sdk.e.qq.com 等
+else if (url.includes("gdt.qq.com") || url.includes("sdk.e.qq.com")) {
+    if (body.ret === 0 || body.ret === undefined) {
+        body = { ret: 102006, msg: "no ad fill" };
     }
 }
 // 快手联盟
