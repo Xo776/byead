@@ -1,18 +1,23 @@
 /**
- * Soul 广场信息流广告过滤 v1.6
+ * Soul 广场信息流广告过滤 v1.7
  *
- * 拦截 post.soulapp.cn / gateway-mobile-gray sculptor 响应，
- * 从 postList 等列表剔除伪装帖与原生信息流广告位。
- *
- * v1.6：补全 GDT/穿山甲原生广告帖字段（ADExtension、isAdvertisement、
- *       adSign、slot 配置等），并覆盖 VAS 推荐帖 API 响应。
+ * v1.7：直接处理 data.postList；authorId=-1 假号帖；QX 日志输出过滤计数
  */
-let body = $response.body;
-if (body) {
+const TAG = "[byead-feed]";
+let body = (typeof $response !== "undefined" && $response) ? $response.body : null;
+let reqUrl = $request.url || "";
+let raw = body;
+
+if (!body) {
+    $done({});
+} else {
     try {
+        let raw = body;
         body = body.replace(/^[0-9a-fA-F]+\r?\n/gm, "");
         body = body.replace(/\r?\n0\r?\n\r?\n$/, "");
         let obj = JSON.parse(body);
+        let removed = 0;
+        let before = 0;
 
         if (obj.data && typeof obj.data === "object") {
             if (Array.isArray(obj.data.postSquareChatRoomRecDTOList)) {
@@ -27,6 +32,15 @@ if (body) {
             if (obj.data.plSlotInfo) {
                 obj.data.plSlotInfo = null;
             }
+            if (obj.data.slotFreqConfigMap) {
+                obj.data.slotFreqConfigMap = {};
+            }
+            if (Array.isArray(obj.data.adList)) {
+                obj.data.adList = [];
+            }
+            if (Array.isArray(obj.data.slotList)) {
+                obj.data.slotList = [];
+            }
         }
 
         const AD_KEYWORDS = [
@@ -37,13 +51,23 @@ if (body) {
             "utm_source", "utm_campaign", "utm_medium",
             "sponsor", "promoted", "advert", "chaxi66",
             "soul-ad.soulapp", "ad-performance-advertiser", "ad-ssp-admin",
-            "qzs.gdtimg", "pgdt.gtimg", "sdk.e.qq"
+            "qzs.gdtimg", "pgdt.gtimg", "sdk.e.qq", "feedAd",
+            "UnifiedNative", "nativeExpress", "GDTMob"
         ];
 
         const LIST_KEYS = [
             "postList", "recommendItems", "recCards", "postInfoList",
-            "timelineList", "unreadList", "hotList", "dataList"
+            "timelineList", "unreadList", "hotList", "dataList", "list"
         ];
+
+        function getAuthorId(item) {
+            if (!item) return null;
+            if (item.authorId !== undefined && item.authorId !== null) return item.authorId;
+            if (item.postAuthorModel && item.postAuthorModel.authorId !== undefined) {
+                return item.postAuthorModel.authorId;
+            }
+            return null;
+        }
 
         function isAdPost(item) {
             if (!item || typeof item !== "object") return false;
@@ -61,6 +85,7 @@ if (body) {
             if (item.plSlotInfo || item.adSlotInfo) return true;
             if (item.slotId || item.adSlotId || item.subSlotId) return true;
             if (item.recommendInsertSlot) return true;
+            if (item.feedAd || item.nativeExpressAd || item.unifiedNativeAd) return true;
 
             let type = item.type;
             if (type === "AD" || type === "MW" || type === "AD_POST") return true;
@@ -75,6 +100,12 @@ if (body) {
             let alg = item.algExt;
             if (alg && String(alg).indexOf("76||") === 0) return true;
 
+            let authorId = getAuthorId(item);
+            if ((authorId === -1 || authorId === "-1") &&
+                (src === 76 || src === "76" || src === 999 || src === "999")) {
+                return true;
+            }
+
             let content = JSON.stringify(item);
             for (let kw of AD_KEYWORDS) {
                 if (content.indexOf(kw) !== -1) return true;
@@ -84,7 +115,15 @@ if (body) {
 
         function filterList(arr) {
             if (!Array.isArray(arr)) return arr;
-            return arr.filter(item => !isAdPost(item));
+            before += arr.length;
+            let out = arr.filter(item => {
+                if (isAdPost(item)) {
+                    removed++;
+                    return false;
+                }
+                return true;
+            });
+            return out;
         }
 
         function walkLists(node) {
@@ -103,10 +142,19 @@ if (body) {
             }
         }
 
+        if (obj.data && Array.isArray(obj.data.postList)) {
+            obj.data.postList = filterList(obj.data.postList);
+        }
         walkLists(obj);
+
+        if (removed > 0) {
+            console.log(TAG + " -" + removed + "/" + before + " " + reqUrl.split("?")[0]);
+        }
+
         body = JSON.stringify(obj);
     } catch (e) {
-        // JSON 解析失败，原样返回
+        console.log(TAG + " parse_err " + e.message);
+        body = raw;
     }
+    $done({ body });
 }
-$done({ body });
