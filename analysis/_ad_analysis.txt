@@ -1,0 +1,11 @@
+AD posts in feed responses: 9
+
+('1977', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece948997%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 1, 'IMAGE', 76, 'recallSRC=76', '找个搭子，我请电影你请饭，已婚勿扰！有诚意的，带着自我介绍和照片来~')
+('1977', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece948997%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 2, 'IMAGE', 76, 'recallSRC=76', '留村夜市走一走[小害羞]')
+('2117', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece94ff78%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 0, 'TEXT', 76, 'recallSRC=76', '再发一遍嘛\n有未婚的大叔吗？\n我是老阿姨，凑一下吗\n不异地\n<innerTag>#找对象</inne')
+('2117', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece94ff78%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 2, 'TEXT', 76, 'recallSRC=76', '找个固聊，唯一关注，30-40成熟稳重的')
+('2117', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece94ff78%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 3, 'IMAGE', 76, 'recallSRC=76', '一直对外宣称170的我：')
+('2117', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece94ff78%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 5, 'IMAGE', 76, 'recallSRC=76', '最解压的方式就是～～～爬山')
+('2132', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece9506a4%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 1, 'TEXT', 76, 'recallSRC=76', '约的事儿安排在下午五点了，有没人中午一起吃个饭。坐标石家庄。[呲牙笑]<innerTag>#御姐</')
+('2132', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece9506a4%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 2, 'IMAGE', 76, 'recallSRC=76', '准备把地下室改造成工作室，虽然小小的一间我也要把它打造成我想要的样子。')
+('2132', 'https://post.soulapp.cn/v6/post/recommended?bi=%5B%2219ece9506a4%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%2C%2226.5%22%2C', 4, 'IMAGE', 76, 'recallSRC=76', '医科大造影剂  好烦呀，造影剂必须要人陪同  有没有人能冒充一下我的朋友[捂脸哭] 5点5点 ')

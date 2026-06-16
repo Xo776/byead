@@ -1,48 +1,39 @@
 # Soul AdBlock
 
-QuantumultX 重写规则，去除 Soul App（soulapp.cn）的开屏广告、插屏广告和广告积分弹窗。
+QuantumultX 重写规则，去除 Soul App 开屏广告、广场伪装帖广告、插屏广告和广告积分弹窗。
+
+版本：**v0.3**（2026-06-16）
 
 ## 文件说明
 
 | 文件 | 用途 |
 |------|------|
-| `soul_ads.conf` | QuantumultX 重写配置文件（导入QX） |
-| `soul_popup_ads.js` | 弹窗配置过滤脚本（需托管到GitHub raw） |
+| `soul_ads.conf` | QX 重写配置（导入引用） |
+| `soul_feed_ads.js` | 广场/城市广场信息流伪装帖过滤 |
+| `soul_popup_ads.js` | 开屏/插屏弹窗配置过滤 |
+| `soul_ssp_ads.js` | SSP 竞价空响应 |
+| `soul_sdk_ads.js` | 穿山甲/GDT SDK 废掉模块 |
+| `soul_block.js` | 通用空 JSON 阻断 |
+| `BLOCKLIST.md` | 完整拦截域名/IP 清单 |
+| `analysis/` | IPA/APK 逆向分析脚本与报告 |
 
-## 安装步骤
-
-### 1. 上传脚本到 GitHub
-
-把 `soul_popup_ads.js` 推到你自己的 GitHub 仓库，获取 raw 链接：
-```
-https://raw.githubusercontent.com/你的用户名/soul-adblock/main/soul_popup_ads.js
-```
-
-### 2. 修改配置文件
-
-编辑 `soul_ads.conf`，把第11行的 `你的用户名` 替换为你的 GitHub 用户名。
-
-### 3. 导入 QuantumultX
+## 安装
 
 1. 打开 QuantumultX → 设置 → 重写 → 引用
-2. 添加 `soul_ads.conf` 的 raw 链接
-3. 开启 MITM，添加主机名：`*.soulapp.cn`
+2. 添加：`https://raw.githubusercontent.com/Xo776/byead/main/soul_ads.conf`
+3. 开启 MITM，`soul_ads.conf` 末尾 `hostname` 行已列出需解密的域名
+4. 强制更新脚本缓存后重启 Soul
 
-### 4. 验证
+## 广告链路
 
-重启 Soul App，开屏广告应该消失。
+| 类型 | 来源 | 处理方式 |
+|------|------|----------|
+| 开屏/插屏 | `api-a` 弹窗配置 + `ssp` + `increase-openapi` | 源头封禁 |
+| 广场伪装帖 | `post.soulapp.cn` 推荐流 | 响应体过滤 `soul_feed_ads.js` |
+| SDK 原生广告 | 穿山甲/广点通/美团 | 域名封禁 + SDK 废模块 |
+| 推广聊天室 | `postSquareChatRoomRecDTOList` | 响应体清空 |
 
-## 原理
-
-通过抓包分析 Soul App 的广告链路，发现5个核心广告端点：
-
-| API | 作用 | 处理方式 |
-|-----|------|----------|
-| `api-a.soulapp.cn/soul/global/popup/allConfig` | 全局弹窗配置 | 脚本过滤 AD_* 条目 |
-| `increase-openapi.soulapp.cn/increase/startup/policy` | 启动广告策略 | 直接拒绝 |
-| `ssp.soulapp.cn/api/bidResult` | SSP广告竞价 | 直接拒绝 |
-| `ad-r.soulapp.cn/api/v2/report` | 广告上报 | 直接拒绝 |
-| `data-collector.soulapp.cn/api/data/report` | 数据上报 | 直接拒绝 |
+详细封禁列表见 [BLOCKLIST.md](BLOCKLIST.md)。
 
 ## 许可证
 

@@ -1,14 +1,16 @@
 /**
- * Soul 广场信息流广告过滤 v1.4
- * 
- * 拦截 feed/sculptor 响应，过滤所有 MW 广告帖子（通用广告容器，不限美团）
- * 
- * 广告识别规则：
- * 1. recallSRC=999 (直接广告)
- * 2. recallSRC=76 + utm_source 参数 (伪装社交达人)
- * 3. 任何包含 utm_source/utm_campaign/utm_medium 的帖子 (广告追踪参数)
- * 4. 已知广告平台关键词
- * 5. 推广聊天室/bizList
+ * Soul 广场信息流广告过滤 v1.5
+ *
+ * 拦截 post.soulapp.cn / gateway-mobile-gray sculptor 响应，
+ * 从 postList 剔除伪装成普通帖的广告（APK+抓包验证）。
+ *
+ * 识别优先级：
+ * 1. 显性标记：isAd / ad / adExtension / type=AD|MW / showPromote / vasAdPostModel
+ * 2. 召回渠道：recallSRC=999 或 76（社交达人伪装帖，无需 utm）
+ * 3. 算法标记：algExt 以 "76||" 开头
+ * 4. 商业化字段：commercialPostType / postCommercialVO
+ * 5. 内容关键词：foodtaster / meituan / utm_* 等追踪参数
+ * 6. 清除 postSquareChatRoomRecDTOList / bizList
  */
 let body = $response.body;
 if (body) {
@@ -21,30 +23,36 @@ if (body) {
             obj.data.postSquareChatRoomRecDTOList = [];
         }
 
-        // 通用广告平台关键词（不限于美团）
         const AD_KEYWORDS = [
             "foodtaster", "offsiteact", "dspadlogger", "wmpact",
-            "bizad", "tackinessann", "meituan",
+            "bizad", "tackinessann", "meituan.net", "meituan.com",
             "pangolin", "snssdk", "gdt.qq", "applovin", "mintegral",
             "doubleclick", "googlesyndication", "adservice",
             "utm_source", "utm_campaign", "utm_medium",
-            "sponsor", "promoted", "advert"
+            "sponsor", "promoted", "advert", "chaxi66"
         ];
 
         function isAdPost(item) {
             if (!item || typeof item !== "object") return false;
-            // 硬性广告标记
-            if (item.ad || item.adExtension || item.isAd === true) return true;
-            if (item.adUrl || item.adImageUrl || item.showPromote === true) return true;
-            if (item.type === "AD") return true;
-            // recallSRC 广告渠道
+
+            if (item.isAd === true) return true;
+            if (item.ad || item.adExtension) return true;
+            if (item.adUrl || item.adImageUrl) return true;
+            if (item.showPromote === true) return true;
+            if (item.vasAdPostModel) return true;
+            if (item.commercialPostType) return true;
+            if (item.postCommercialVO) return true;
+
+            let type = item.type;
+            if (type === "AD" || type === "MW") return true;
+
             let src = item.recallSRC;
             if (src === 999 || src === "999") return true;
-            if (src === 76 || src === "76") {
-                let s = JSON.stringify(item);
-                if (s.indexOf("utm_") !== -1) return true;
-            }
-            // 内容关键词匹配
+            if (src === 76 || src === "76") return true;
+
+            let alg = item.algExt;
+            if (alg && String(alg).indexOf("76||") === 0) return true;
+
             let content = JSON.stringify(item);
             for (let kw of AD_KEYWORDS) {
                 if (content.indexOf(kw) !== -1) return true;
@@ -55,9 +63,11 @@ if (body) {
         function filterAds(data) {
             if (!data || typeof data !== "object") return data;
             if (Array.isArray(data)) {
-                return data.filter(item => !isAdPost(item)).map(item => filterAds(item));
+                return data
+                    .filter(item => !isAdPost(item))
+                    .map(item => filterAds(item));
             }
-            if (typeof data === "object" && data !== null) {
+            if (data !== null) {
                 if (isAdPost(data)) return null;
                 let result = {};
                 for (let key of Object.keys(data)) {
@@ -74,11 +84,6 @@ if (body) {
         if (obj.data && Array.isArray(obj.data.bizList)) {
             obj.data.bizList = [];
         }
-
-        body = JSON.stringify(obj);
-    } catch (e) {}
-}
-$done({ body });
 
         body = JSON.stringify(obj);
     } catch (e) {

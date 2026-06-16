@@ -1,0 +1,1079 @@
+============================================================
+IPA: Soul_6.23.0（正版）.ipa
+
+============================================================
+APK: soul_channel_soul.apk
+  classes10.dex (11352KB)
+  classes11.dex (11471KB)
+  classes12.dex (10815KB)
+  classes13.dex (10435KB)
+  classes14.dex (9109KB)
+  classes15.dex (11263KB)
+  classes16.dex (11329KB)
+  classes2.dex (10326KB)
+  classes3.dex (8197KB)
+  classes4.dex (7777KB)
+  classes5.dex (7964KB)
+  classes6.dex (10480KB)
+  classes7.dex (9178KB)
+  classes9.dex (11653KB)
+  classes.dex (11361KB)
+  assets/grs_sdk_global_route_config_opensdkService.json (10KB)
+  assets/grs_sdk_global_route_config_opendevicesdk.json (7KB)
+  assets/grs_sdk_global_route_config_mlkit.json (9KB)
+  assets/tab_square_disappear_static_night.json (19KB)
+  assets/tab_square_disappear_dress_skin.json (0KB)
+  assets/tab_square_appear_dress_skin.json (3KB)
+  assets/tab_square_disappear_static.json (19KB)
+  assets/tab_square_disappear_night.json (16KB)
+  assets/square_dismiss_red_night.json (2KB)
+  assets/square_appear_red_night.json (4KB)
+  assets/square_dismiss_hb_night.json (5KB)
+  assets/square_upload_red_night.json (4KB)
+  assets/tab_square_appear_night.json (19KB)
+  assets/square_appear_hb_night.json (7KB)
+  assets/square_upload_hb_night.json (8KB)
+
+--- Pattern: "MW" ---
+  [assets/grs_sdk_global_route_config_opensdkService.json]
+                            "MW",
+  [assets/grs_sdk_global_route_config_opendevicesdk.json]
+                    "MW",
+  [assets/grs_sdk_global_route_config_mlkit.json]
+                            "MW",
+
+--- Pattern: Commercial ---
+  [classes10.dex]
+    commercialPostType
+  [classes11.dex]
+    /chat/commercial/relation
+    commercialRelationMedal
+    commercial_interact_card
+    commercial_relation_invite_card
+  [classes12.dex]
+    COMMERCIAL_RELATION
+    commercialRelation
+    commercialRelationMedal
+    {"isCommercialize":0,"isShow":1,"notice":"
+  [classes13.dex]
+    "/content/commercial/video/episodes
+    */content/commercial/video/pay/order/create
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    commercialPostType
+    'content/commercial/video/episode/detail
+    ,content/commercial/video/episode/slideDetail
+    postCommercialVO
+  [classes14.dex]
+    , commercialHighUser=
+    COMMERCIAL_API
+    COMMERCIAL_API.reqUrl
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    commercial
+    commercial-api
+    commercialHighUser
+    commercialPostType
+  [classes15.dex]
+    .CVpSoulHouseCommercialBannerLayoutBinding.java
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    RLcn/soulapp/cpnt_voiceparty/databinding/CVpSoulHouseCommercialBannerLayoutBinding;
+    PostCommercialVO
+    commercial-api
+    commercialPostType
+    "https://soul-commercial.soulapp.cn
+    postCommercialVO
+  [classes16.dex]
+    $ commercialBannerContainerDataList2:
+    V()[Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/utils/CommercialTemplateTypeEnum;
+    T(ILcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/bean/CommercialBannerDataBean;)V
+    ](Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;)V
+    (Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;)V
+    (Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Long;Lcn/soulapp/cpnt_voiceparty/sou
+    (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;)Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/bean/CommercialUserDataBean;
+    COMMERCIAL_BANNER_SLICE
+  [classes2.dex]
+    TYPE_CLOSE_FRIEND_COMMERCIAL
+  [classes9.dex]
+    ,/commercial/interaction/visit/getVisitRecord
+    0/commercial/interaction/visit/getVisitRecordList
+    )/commercial/interaction/visit/payAllRight
+    ,/commercial/interaction/visit/payRecordRight
+    /commercial/room/resources
+    COMMERCIAL_API
+    COMMERCIAL_API.reqUrl
+    2COMMERCIAL_API.service(I
+
+--- Pattern: FeedAd ---
+  [classes10.dex]
+    ;Lcom/bytedance/sdk/openadsdk/TTAdNative$DrawFeedAdListener;
+    7Lcom/bytedance/sdk/openadsdk/TTAdNative$FeedAdListener;
+    *Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd;
+    6Lcom/bytedance/sdk/openadsdk/TTFeedAd$VideoAdListener;
+    &Lcom/bytedance/sdk/openadsdk/TTFeedAd;
+    drawFeedAd
+    feedAd
+    loadDrawFeedAd
+  [classes3.dex]
+    DrawFeedAdListener
+    FeedAdListener
+    ;Lcom/bytedance/sdk/openadsdk/TTAdNative$DrawFeedAdListener;
+    7Lcom/bytedance/sdk/openadsdk/TTAdNative$FeedAdListener;
+    <Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd$DrawVideoListener;
+    *Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd;
+    5Lcom/bytedance/sdk/openadsdk/TTFeedAd$CustomizeVideo;
+    6Lcom/bytedance/sdk/openadsdk/TTFeedAd$VideoAdListener;
+  [classes5.dex]
+    mFeedAdRender
+
+--- Pattern: NativeAd ---
+  [classes10.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+    :Lcn/soulapp/android/ad/views/reward/SafeNativeAdContainer;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$AdInteractionListener;
+    (Lcom/bytedance/sdk/openadsdk/TTNativeAd;
+    "Lcom/jd/ad/sdk/nativead/JADNative;
+    5Lcom/jd/ad/sdk/nativead/JADNativeInteractionListener;
+    .Lcom/jd/ad/sdk/nativead/JADNativeLoadListener;
+    *Lcom/qq/e/ads/nativ/NativeADEventListener;
+  [classes11.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes13.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes14.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+    nativeAdd
+    nativeAdd3DModelIDForFilterList
+    nativeAddBmLayerBelow
+    nativeAddDrawItem
+    nativeAddDrawItemAbove
+    nativeAddDrawItemBelow
+    nativeAddDrawItemByZIndex
+  [classes15.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes16.dex]
+    nativeAddMessageListener
+  [classes3.dex]
+    , mNativeAdType=
+    9Lcom/bytedance/sdk/openadsdk/TTAdNative$NativeAdListener;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$AdInteractionListener;
+    ?Lcom/bytedance/sdk/openadsdk/TTNativeAd$EasyPlayWidgetListener;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$ExpressRenderListener;
+    (Lcom/bytedance/sdk/openadsdk/TTNativeAd;
+    GLcom/bytedance/sdk/openadsdk/mediation/IMediationNativeAdTokenCallback;
+    ALcom/bytedance/sdk/openadsdk/mediation/ad/IMediationNativeAdInfo;
+  [classes5.dex]
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_an;
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_bo;
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_cp;
+    "Lcom/jd/ad/sdk/nativead/JADNative;
+    5Lcom/jd/ad/sdk/nativead/JADNativeInteractionListener;
+    .Lcom/jd/ad/sdk/nativead/JADNativeLoadListener;
+    ;Lcom/jd/ad/sdk/nativead/JADNativeSplashInteractionListener;
+    (Lcom/jd/ad/sdk/nativead/JADNativeWidget;
+  [classes6.dex]
+    mNativeAddr
+    nativeAddAudioTrack
+    nativeAddAudioTrack2
+    nativeAddAudioTrackForClips
+    nativeAddAudioTrackForTrack
+    nativeAddAudioTrackMV
+    "nativeAddAudioTrackWithNeedPrepare
+    *nativeAddAudioTrackWithNeedPrepareForTrack
+  [classes7.dex]
+    nativeAddPeer
+    nativeAddRef
+    nativeAddSample
+    nativeAddVideoWatermark
+    $nativeAdjustAudioMixingPlayoutVolume
+    $nativeAdjustAudioMixingPublishVolume
+    nativeAdjustAudioMixingVolume
+    $nativeAdjustCustomAudioPlayoutVolume
+
+--- Pattern: PostSquare ---
+  [classes10.dex]
+    PostSquare
+    PostSquare_Interacted
+    PostSquare_MessageAggregate
+    PostSquare_MyMessage
+    PostSquare_MyMessage_CreateInfo
+    "PostSquare_MyMessage_CreateRoomMsg
+    %PostSquare_MyMessage_FollowCreateInfo
+    PostSquare_WipeDustList
+  [classes11.dex]
+    ChatDetail_Postsquare_clk
+    ChatDetail_Postsquare_exp
+    PostSquare_City
+    PostSquare_Follow
+    PostSquare_Interest
+    PostSquare_Map
+    PostSquare_Recommend
+    PostSquare_SearchResult
+  [classes12.dex]
+    &sceneCode=PostSquare_Recommend
+  [classes13.dex]
+    GLcn/soulapp/android/square/bean/RecommendPost$PostSquareChatRoomRecDTO;
+    PostSquare_Anonymous
+    PostSquare_AnswerHelper
+    PostSquare_Campus
+    PostSquare_Campus_School
+    PostSquare_CardDislikeSubmit
+    PostSquare_City
+    PostSquare_Content
+  [classes14.dex]
+    GLcn/soulapp/android/square/bean/RecommendPost$PostSquareChatRoomRecDTO;
+    PostSquareTag_PostLabel
+    PostSquare_AudioBoxexp
+    PostSquare_Campus
+    PostSquare_Campus_School
+    PostSquare_City
+    PostSquare_Follow
+    PostSquare_Interacted
+  [classes15.dex]
+    GLcn/soulapp/android/square/bean/RecommendPost$PostSquareChatRoomRecDTO;
+    PostSquare
+    PostSquareChatRoomRecDTO
+    PostSquareMyMessage_ThankYou
+    PostSquare_AudioBox
+    PostSquare_AudioBoxexp
+    PostSquare_CameraButton_clk
+    PostSquare_Campus
+  [classes16.dex]
+    PostSquare
+  [classes2.dex]
+    PostSquare_SearchResult
+  [classes5.dex]
+    PostSquare_Map
+    PostSquare_Tag
+  [classes9.dex]
+    PostSquare_Follow
+
+--- Pattern: PostSquare_City ---
+  [classes11.dex]
+    PostSquare_City
+  [classes13.dex]
+    PostSquare_City
+  [classes14.dex]
+    PostSquare_City
+  [classes15.dex]
+    PostSquare_City
+    PostSquare_CityCardClick
+    PostSquare_CityCardFollow
+    PostSquare_CitySJClick
+
+--- Pattern: PostSquare_Recommend ---
+  [classes11.dex]
+    PostSquare_Recommend
+  [classes12.dex]
+    &sceneCode=PostSquare_Recommend
+  [classes13.dex]
+    PostSquare_Recommend
+    (PostSquare_Recommend_VoiceaddCover_danmu
+  [classes14.dex]
+    PostSquare_Recommend
+    PostSquare_RecommendCity
+    $PostSquare_Recommend_SoulDaily_Click
+    %PostSquare_Recommend_SoulDaily_Expose
+    1PostSquare_Recommend_SoulDaily_SoulOfficial_Click
+    PostSquare_Recommend_TagIcon
+    !PostSquare_Recommend_TagIconWatch
+    PostSquare_Recommend_UserTag
+  [classes15.dex]
+    PostSquare_Recommend
+    PostSquare_RecommendCity
+    PostSquare_RecommendSR
+    (PostSquare_Recommend_VoiceaddCover_danmu
+
+--- Pattern: RecallSRC ---
+  [classes13.dex]
+    recallSRC
+  [classes14.dex]
+    recallSRC
+  [classes15.dex]
+    , recallSRC=
+    recallSRC
+
+--- Pattern: SoulAd ---
+  [classes10.dex]
+    Q()Lcn/soulapp/android/ad/soulad/ad/base/funs/ISoulApiAdFun$OnHandleClickListener;
+    a()Lcn/soulapp/android/ad/soulad/ad/views/template/interact/BaseInteractLayer$OnViewClickCallBack;
+    d()Lcn/soulapp/android/ad/soulad/ad/views/template/materiel/BaseMaterielLayer$OnMaterielLifeCallBack;
+    U()Lcn/soulapp/android/ad/soulad/ad/views/unified/view/AdLayoutVideoControllerBinding;
+    R(Lcn/soulapp/android/ad/soulad/ad/base/funs/ISoulApiAdFun$OnHandleClickListener;)V
+    n(Lcn/soulapp/android/ad/soulad/ad/views/express/base/BaseExpressView;Lcn/soulapp/android/ad/api/bean/AdInfo;)V
+    b(Lcn/soulapp/android/ad/soulad/ad/views/template/interact/BaseInteractLayer$OnViewClickCallBack;)V
+    e(Lcn/soulapp/android/ad/soulad/ad/views/template/materiel/BaseMaterielLayer$OnMaterielLifeCallBack;)V
+  [classes11.dex]
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener;
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener<
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener;
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener<
+    CLcn/soulapp/android/ad/core/services/plaforms/view/ISoulAdRootView;
+    RLcn/soulapp/android/ad/soulad/ad/views/unified/view/template/view/InfoTagTextView;
+  [classes12.dex]
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener;
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener<
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener;
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener<
+    SoulAdGameAdapter.kt
+    soulAd
+  [classes13.dex]
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener;
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener<
+    jLcn/soulapp/android/ad/soulad/ad/views/unified/view/template/SoulPostComponentFactory$IUpdateViewListener;
+    VLcn/soulapp/android/ad/soulad/ad/views/unified/view/template/SoulPostComponentFactory;
+    RLcn/soulapp/android/ad/soulad/ad/views/unified/view/template/view/InfoTagTextView;
+  [classes14.dex]
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener;
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener<
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener;
+    RLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRewardLoaderListener<
+    @Lcn/soulapp/android/ad/soulad/ad/views/splash/SplashContentView;
+    ELcn/soulapp/android/ad/soulad/ad/views/template/SplashLinkStyle2View;
+    SoulAdSDK
+    SoulAdSDKTask
+  [classes15.dex]
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener;
+    MLcn/soulapp/android/ad/core/services/plaforms/listener/SoulAdRequestListener<
+    DLcn/soulapp/android/ad/core/services/plaforms/view/ISoulAdMediaView;
+    CLcn/soulapp/android/ad/core/services/plaforms/view/ISoulAdRootView;
+    RLcn/soulapp/android/ad/soulad/ad/views/unified/view/template/view/InfoTagTextView;
+    ELcom/tencent/single/trtc/souladapter/TRTCEngineBridge$ResolutionMode;
+    ALcom/tencent/single/trtc/souladapter/TRTCEngineBridge$StreamType;
+    SLcom/tencent/single/trtc/souladapter/TRTCEngineBridge$TRTCBridgeAudioFrameListener;
+  [classes7.dex]
+    V$SwitchMap$com$tencent$single$trtc$souladapter$TXMusicPlayStateManage$TXMusicPlayState
+    8Lcom/tencent/single/trtc/souladapter/TRTCEngineBridge$1;
+    HLcom/tencent/single/trtc/souladapter/TRTCEngineBridge$ChorusPlayerState;
+    ELcom/tencent/single/trtc/souladapter/TRTCEngineBridge$ResolutionMode;
+    ALcom/tencent/single/trtc/souladapter/TRTCEngineBridge$StreamType;
+    SLcom/tencent/single/trtc/souladapter/TRTCEngineBridge$TRTCBridgeAudioFrameListener;
+    ILcom/tencent/single/trtc/souladapter/TRTCEngineBridge$TRTCBridgeListener;
+    LLcom/tencent/single/trtc/souladapter/TRTCEngineBridge$TRTCCloudListenerImpl;
+
+--- Pattern: adExtension ---
+  [classes13.dex]
+    /Lcn/android/lib/soul_entity/square/ADExtension;
+  [classes14.dex]
+    /Lcn/android/lib/soul_entity/square/ADExtension;
+  [classes7.dex]
+    loadExtensionProvider
+    )loadExtensionReceiverParameterAnnotations
+    nativeLoadExtensionProvider
+  [classes9.dex]
+    ADExtension(bizId=
+    1Lcn/android/lib/soul_entity/square/ADExtension$a;
+    /Lcn/android/lib/soul_entity/square/ADExtension;
+    0[Lcn/android/lib/soul_entity/square/ADExtension;
+
+--- Pattern: adUrl ---
+  [classes10.dex]
+    DownloadUrl is error
+    appDownloadUrl
+    downloadUrl
+    downloadUrlMd5
+    getAppDownloadUrl
+    getDownloadUrl
+    getHeadUrl
+    getPreloadUrls
+  [classes11.dex]
+    downloadUrl
+  [classes12.dex]
+    $loadUrl
+    LoadUrlTimeout
+    .dismissWindowPrepareNext "LoadUrlTimeout" != s
+    downloadUrl
+    downloadUrlMd5
+    loadUrl
+    loadUrl 
+    loadUrl: 
+  [classes13.dex]
+    downloadUrl
+    downloadUrl: 
+    downloadUrls
+    loadUrl
+  [classes14.dex]
+    common_AppDownLoadURL
+    downloadUrl
+    loadUrl
+    setHeadUrl
+  [classes15.dex]
+    downloadUrl
+    lambda$loadUrl$6
+    loadUrl
+    loadUrl(%s, %s) view@%s
+    preLoadUrl cover url: 
+    preLoadUrl1 video url: 
+    preLoadUrl2 video url: 
+    reloadUrl
+  [classes16.dex]
+    %DraftPublishService: uploadUrl draft 
+    )DraftPublishService: uploadUrl for draft 
+    GifLoadUrl:
+    TrafficOptimizeLoadUrl:
+    animationDownloadUrl
+    downloadUrl
+    leadUrl
+    loadUrl
+  [classes2.dex]
+    downloadUrl
+    downloadUrlMd5
+    getAlogUploadUrl
+    getAsanReportUploadUrl
+    getCrashPortraitUploadUrl
+    getExceptionUploadUrl
+    getFileUploadUrl
+    getJavaCrashUploadUrl
+  [classes3.dex]
+    DownloadUrlInfo
+    ELcom/bytedance/vcloud/cacheModule/PlaylistDownloader$DownloadUrlInfo;
+    @Lcom/bytedance/vcloud/cacheModule/PlaylistLoader$PreloadUrlInfo;
+    PreloadUrlInfo
+    PreloadUrlInfo{mUrl='
+    Reflect loadUrl failed
+    getAllMasterDownloadUrls
+    loadUrl
+  [classes4.dex]
+    loadUrl
+  [classes5.dex]
+    downloadUrl
+    getAdUrl
+    getDownloadUrl
+    loadUrl
+    setUploadUrl
+  [classes6.dex]
+    $downloadUrl$inlined
+    Q-->generateDownloadUrl, url: https://imgcache.qq.com/ptlogin/static/qzsjump.html?
+    DownloadURLTask.java
+    @Lcom/bytedance/vcloud/cacheModule/PlaylistLoader$PreloadUrlInfo;
+    [Lcom/ss/ttvideoengine/TTVideoEnginePreloadHLSChooseUrlCallback$TTVideoEnginePreloadUrlInfo;
+    /Lcom/ss/ttvideoengine/download/DownloadURLTask;
+    .Lcom/ss/ttvideoengine/preload/PreloadURLMedia;
+    PreloadURLMedia.java
+  [classes7.dex]
+     downloadUrl=
+    , mApkDownloadUrl=
+    CollectionPluginDownloadUrl
+    DOWNLOADURL
+    ,INFO_CODE_MINIQB_STARTMINIQBTOLOADURL_COUNTS
+    ,INFO_CODE_MINIQB_STARTMINIQBTOLOADURL_FAILED
+    1INFO_CODE_MINIQB_STARTMINIQBTOLOADURL_ISNOTX5CORE
+    -INFO_CODE_MINIQB_STARTMINIQBTOLOADURL_SUCCESS
+  [classes9.dex]
+    7()Lcn/soul/android/upload/urlupload/bean/UploadUrlInfo;
+    8(Lcn/soul/android/upload/urlupload/bean/UploadUrlInfo;)V
+    , downloadUrl: 
+    , downloadUrl=
+    /file/single/getUploadUrl
+    BaseResourcesBody(downloadUrl=
+    5Lcn/soul/android/upload/urlupload/bean/UploadUrlInfo;
+    UploadUrlInfo.kt
+
+--- Pattern: algExt ---
+  [classes10.dex]
+    algExt
+    getAlgExt
+    setAlgExt
+  [classes11.dex]
+    algExt
+    #conversation.getStringExt("algExt")
+    it.algExt
+  [classes12.dex]
+    , algExt=
+    algExt
+    getAlgExt
+  [classes13.dex]
+    &postAlgExt=
+    ,algExt:
+    NLcn/soulapp/android/component/square/location/LocationSquareActivity$algExt$2;
+    NLcn/soulapp/android/component/square/location/LocationSquareFragment$algExt$2;
+    algExt
+    getAlgExt
+    it.algExt
+    postAlgExt
+  [classes14.dex]
+    ,algExt:
+    ELcn/soulapp/android/component/square/tag/TagSquareActivity2$algExt$2;
+    DLcn/soulapp/android/component/square/tag/TagSquareFragment$algExt$2;
+    algExt
+    getAlgExt
+    setAlgExt
+  [classes15.dex]
+    &postAlgExt=
+    , algExt=
+    ,algExt:
+    _Lcn/soulapp/android/square/api/track/SquareContentTrack$Companion$squareChatRoomExposeAlgExt$2;
+    SquareChatRoomExposeAlgExt
+    algExt
+    getAlgExt
+    ) "-100" else post.algExt
+  [classes16.dex]
+    , algExt=
+    ,algExt=
+    algExt
+    getAlgExt
+    setAlgExt
+  [classes2.dex]
+    algExt
+  [classes6.dex]
+    algExt
+  [classes9.dex]
+    algExt
+    getAlgExt
+
+--- Pattern: bidResult ---
+  [classes3.dex]
+    *MediationCustomBaseLoader receiveBidResult
+    (MediationCustomNativeAd receiveBidResult
+    receiveBidResult
+
+--- Pattern: bizad ---
+  [classes9.dex]
+    renderBizAddView
+
+--- Pattern: commercial ---
+  [classes10.dex]
+    commercialPostType
+  [classes11.dex]
+    /chat/commercial/relation
+    commercialRelationMedal
+    commercial_interact_card
+    commercial_relation_invite_card
+  [classes12.dex]
+    COMMERCIAL_RELATION
+    commercialRelation
+    commercialRelationMedal
+    {"isCommercialize":0,"isShow":1,"notice":"
+  [classes13.dex]
+    "/content/commercial/video/episodes
+    */content/commercial/video/pay/order/create
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    commercialPostType
+    'content/commercial/video/episode/detail
+    ,content/commercial/video/episode/slideDetail
+    postCommercialVO
+  [classes14.dex]
+    , commercialHighUser=
+    COMMERCIAL_API
+    COMMERCIAL_API.reqUrl
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    commercial
+    commercial-api
+    commercialHighUser
+    commercialPostType
+  [classes15.dex]
+    .CVpSoulHouseCommercialBannerLayoutBinding.java
+    ;Lcn/soulapp/android/square/post/bean/Post$PostCommercialVO;
+    RLcn/soulapp/cpnt_voiceparty/databinding/CVpSoulHouseCommercialBannerLayoutBinding;
+    PostCommercialVO
+    commercial-api
+    commercialPostType
+    "https://soul-commercial.soulapp.cn
+    postCommercialVO
+  [classes16.dex]
+    $ commercialBannerContainerDataList2:
+    V()[Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/utils/CommercialTemplateTypeEnum;
+    T(ILcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/bean/CommercialBannerDataBean;)V
+    ](Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;)V
+    (Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/view/CommonCommercialAutoScrollPageView;)V
+    (Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Long;Lcn/soulapp/cpnt_voiceparty/sou
+    (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;)Lcn/soulapp/cpnt_voiceparty/soulhouse/left/banner/bean/CommercialUserDataBean;
+    COMMERCIAL_BANNER_SLICE
+  [classes2.dex]
+    TYPE_CLOSE_FRIEND_COMMERCIAL
+  [classes9.dex]
+    ,/commercial/interaction/visit/getVisitRecord
+    0/commercial/interaction/visit/getVisitRecordList
+    )/commercial/interaction/visit/payAllRight
+    ,/commercial/interaction/visit/payRecordRight
+    /commercial/room/resources
+    COMMERCIAL_API
+    COMMERCIAL_API.reqUrl
+    2COMMERCIAL_API.service(I
+
+--- Pattern: feed.?ad ---
+  [classes10.dex]
+    ;Lcom/bytedance/sdk/openadsdk/TTAdNative$DrawFeedAdListener;
+    7Lcom/bytedance/sdk/openadsdk/TTAdNative$FeedAdListener;
+    *Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd;
+    6Lcom/bytedance/sdk/openadsdk/TTFeedAd$VideoAdListener;
+    &Lcom/bytedance/sdk/openadsdk/TTFeedAd;
+    drawFeedAd
+    feedAd
+    loadDrawFeedAd
+  [classes3.dex]
+    DrawFeedAdListener
+    FeedAdListener
+    ;Lcom/bytedance/sdk/openadsdk/TTAdNative$DrawFeedAdListener;
+    7Lcom/bytedance/sdk/openadsdk/TTAdNative$FeedAdListener;
+    <Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd$DrawVideoListener;
+    *Lcom/bytedance/sdk/openadsdk/TTDrawFeedAd;
+    5Lcom/bytedance/sdk/openadsdk/TTFeedAd$CustomizeVideo;
+    6Lcom/bytedance/sdk/openadsdk/TTFeedAd$VideoAdListener;
+  [classes5.dex]
+    "create feed ad view failed by data
+    mFeedAdRender
+
+--- Pattern: isAd ---
+  [classes10.dex]
+    $isAdmin
+    `Lcn/soulapp/android/client/component/middle/platform/utils/push/NotifierClickUtils$isAddFlags$2;
+    isAD
+    isAdCached
+    isAdd
+    isAddFlags
+    isAddPostNotice
+    isAdded
+  [classes11.dex]
+    isAddBtn
+    isAddFailedMessage
+    isAddPostNotice
+    isAdded
+  [classes12.dex]
+    isAdPersonalEnable
+    #isAdPersonalEnable ====> enabled = 
+    $isAdPersonalEnable ====> exception: 
+    isAdPersonalEnable ====> start
+    isAdRewardEnable
+    !isAdRewardEnable ====> enabled = 
+    "isAdRewardEnable ====> exception: 
+    isAdRewardEnable ====> start
+  [classes13.dex]
+    isAdTab
+    isAdType
+    isAdd
+    isAddBarenessSticker
+    isAddExcellentTipShowing
+    isAddFriendOpen
+    isAddFriendTest
+    isAddFriendTest$annotations
+  [classes14.dex]
+    isADShowed
+    isAdPersonalEnable
+    isAdRewardEnable
+    isAdShakeEnable
+    isAdTab
+    isAdded
+    isAdvanceUser
+  [classes15.dex]
+    isAd
+    isAdd
+    isAddEnable
+    isAddExcellentTipShowing
+    isAddTagTipShowing
+    isAdded
+    isAdmin
+  [classes16.dex]
+    , isAdd=
+    isAdaptLabelStyle
+    isAdd
+    isAddAll
+    isAddPigLoading
+    isAdded
+  [classes2.dex]
+    isAdded
+  [classes3.dex]
+    isAdded
+    isAdjustType
+  [classes4.dex]
+    isAdvertisingIdAvailable
+  [classes6.dex]
+    OptionIsAdaptiveWorkAroundMode
+    OptionIsAdditionSubInfo
+    &OptionIsAdvancedBufferringCheckEnabled
+    1getMixedStreamServerControlConfigIsAddVolumeValue
+    isAdaptivePlayback
+    isAdaptivePlaybackV19
+    isAddVolumeValue
+    isAdded
+  [classes7.dex]
+    %$isAdditionalBuiltInsFeatureSupported
+  [classes9.dex]
+    isAdTab
+    isAdapterPositionUnknown
+    isAdded
+    isAddition
+    isAdjustable
+  [classes.dex]
+    isAddToBackStackAllowed
+    isAdded
+    isAddition
+    isAddition-impl
+
+--- Pattern: meituan ---
+  [classes14.dex]
+    com.sankuai.meituan
+    com.sankuai.meituan.takeoutnew
+  [classes15.dex]
+    cGetMeituanId
+  [classes16.dex]
+    com.sankuai.meituan
+  [classes5.dex]
+    6Lcom/meituan/android/walle/SignatureNotFoundException;
+  [classes7.dex]
+    imeituan://
+    meituanqcsc://
+    meituanwaimai://
+  [classes9.dex]
+    meituan.jar
+
+--- Pattern: native.?ad ---
+  [classes10.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+    :Lcn/soulapp/android/ad/views/reward/SafeNativeAdContainer;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$AdInteractionListener;
+    (Lcom/bytedance/sdk/openadsdk/TTNativeAd;
+    "Lcom/jd/ad/sdk/nativead/JADNative;
+    5Lcom/jd/ad/sdk/nativead/JADNativeInteractionListener;
+    .Lcom/jd/ad/sdk/nativead/JADNativeLoadListener;
+    *Lcom/qq/e/ads/nativ/NativeADEventListener;
+  [classes11.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes13.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes14.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+    nativeAdd
+    nativeAdd3DModelIDForFilterList
+    nativeAddBmLayerBelow
+    nativeAddDrawItem
+    nativeAddDrawItemAbove
+    nativeAddDrawItemBelow
+    nativeAddDrawItemByZIndex
+  [classes15.dex]
+    ELcn/soulapp/android/ad/core/loader/unified/SoulUnifiedNativeAdLoader;
+  [classes16.dex]
+    nativeAddMessageListener
+  [classes3.dex]
+    , mNativeAdType=
+    9Lcom/bytedance/sdk/openadsdk/TTAdConstant$NATIVE_AD_TYPE;
+    9Lcom/bytedance/sdk/openadsdk/TTAdNative$NativeAdListener;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$AdInteractionListener;
+    ?Lcom/bytedance/sdk/openadsdk/TTNativeAd$EasyPlayWidgetListener;
+    >Lcom/bytedance/sdk/openadsdk/TTNativeAd$ExpressRenderListener;
+    (Lcom/bytedance/sdk/openadsdk/TTNativeAd;
+    GLcom/bytedance/sdk/openadsdk/mediation/IMediationNativeAdTokenCallback;
+  [classes5.dex]
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_an;
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_bo;
+    +Lcom/jd/ad/sdk/nativead/JADNative$jad_n_cp;
+    "Lcom/jd/ad/sdk/nativead/JADNative;
+    5Lcom/jd/ad/sdk/nativead/JADNativeInteractionListener;
+    .Lcom/jd/ad/sdk/nativead/JADNativeLoadListener;
+    ;Lcom/jd/ad/sdk/nativead/JADNativeSplashInteractionListener;
+    (Lcom/jd/ad/sdk/nativead/JADNativeWidget;
+  [classes6.dex]
+    mNativeAddr
+    nativeAddAudioTrack
+    nativeAddAudioTrack2
+    nativeAddAudioTrackForClips
+    nativeAddAudioTrackForTrack
+    nativeAddAudioTrackMV
+    "nativeAddAudioTrackWithNeedPrepare
+    *nativeAddAudioTrackWithNeedPrepareForTrack
+  [classes7.dex]
+    nativeAddPeer
+    nativeAddRef
+    nativeAddSample
+    nativeAddVideoWatermark
+    $nativeAdjustAudioMixingPlayoutVolume
+    $nativeAdjustAudioMixingPublishVolume
+    nativeAdjustAudioMixingVolume
+    $nativeAdjustCustomAudioPlayoutVolume
+  [classes9.dex]
+    &REACT_NATIVE_ADD_VIEW_WHEN_PAGE_CLOSED
+
+--- Pattern: recCardType ---
+  [classes13.dex]
+    recCardType
+  [classes14.dex]
+    recCardType
+  [classes15.dex]
+    recCardType
+
+--- Pattern: recParam ---
+  [classes10.dex]
+    getRecParams
+    recParams
+    setRecParams
+  [classes16.dex]
+    recParams
+
+--- Pattern: recallSRC ---
+  [classes13.dex]
+    recallSRC
+  [classes14.dex]
+    recallSRC
+  [classes15.dex]
+    , recallSRC=
+    recallSRC
+
+--- Pattern: recallSrc ---
+  [classes13.dex]
+    recallSRC
+  [classes14.dex]
+    recallSRC
+  [classes15.dex]
+    , recallSRC=
+    recallSRC
+
+--- Pattern: recommended ---
+  [classes11.dex]
+    ChatDetail_RecommendedTop_clk
+    ChatDetail_RecommendedTop_exp
+    ChatRecommendedState
+    #Lovebell_OpenRecommendedCardChatClk
+    Lovebell_OpenRecommendedCardExp
+    RecommendedContentChange
+    RecommendedContent_Source
+  [classes13.dex]
+    /v2/recommended/tags
+    /v5/post/recommended
+    DEFAULT_RECOMMENDED_AVATAR
+    DEFAULT_RECOMMENDED_AVATAR_LIST
+    DEFAULT_RECOMMENDED_TIME
+    IMG_RECOMMENDED_AVATAR_PREFIX
+    !RecordingPage_RecommendedTips_Clk
+    binding.groupRecommendedMatch
+  [classes14.dex]
+    /v5/post/recommended
+  [classes15.dex]
+    /v1/post/two/row/recommended
+    /v5/post/recommended
+    /v6/post/recommended
+    AIPage_RecommendedUserCard_clk
+    AIPage_RecommendedUserCard_exp
+    guest/post/recommended
+    recommended
+    recommendedPostList
+  [classes16.dex]
+    (live/openeco/ugcgame/library/recommended
+    recommended
+  [classes3.dex]
+    getRecommendedTimeoutMillis
+    mRecommendedTimeout
+  [classes4.dex]
+    +Internal error occurred, recommended retry.
+  [classes5.dex]
+    It is recommended to use clearAfterDetached, or manually call to SVGAVideoEntity#clear.If you just consider cleaning up the canvas after playing, you can use FillMode#Clear.
+    RecommendedExposureIndex
+  [classes6.dex]
+       recommendedMaxBytesOverMobile=
+     getRecommendedMaxBytesOverMobile
+  [classes7.dex]
+    R. Hint: for most apps it's recommended to keep a BoxStore for the app's life time.
+    RecommendedExposureIndex
+    This is an internal kotlinx.coroutines API that should not be used from outside of kotlinx.coroutines. No compatibility guarantees are provided. It is recommended to report your use-case of internal API to kotlinx.coroutines issue tracker, so stable 
+    getRecommendedEncoderType
+    getRecommendedEncoderTypeImpl
+  [classes.dex]
+    RecommendedExposureIndex
+    lSuper calls with default arguments not supported in this target, function: calculateRecommendedTimeoutMillis
+    TAG_RECOMMENDED_EXPOSURE_INDEX
+    !calculateRecommendedTimeoutMillis
+    )calculateRecommendedTimeoutMillis$default
+    getRecommendedTimeoutMillis
+
+--- Pattern: sculptor ---
+  [classes14.dex]
+    ,Lcn/soul/android/lib/hotfix/online/Sculptor;
+    2Lcn/soul/android/lib/hotfix/online/SculptorLoader;
+  [classes9.dex]
+    $sculptorInfoMo
+    6()Lcn/soul/android/lib/hotfix/online/SculptorConfigMo;
+    7(Lcn/soul/android/lib/hotfix/online/SculptorConfigMo;)V
+    , sculptorSign=
+    , sculptorState=
+    , sculptorVersion=
+    /common/sculptor
+    /common/sculptor:
+
+--- Pattern: showPromote ---
+  [classes13.dex]
+    showPromote
+  [classes15.dex]
+    showPromote
+
+--- Pattern: ssp\.soulapp ---
+  [classes14.dex]
+    https://ssp.soulapp.cn
+  [classes15.dex]
+    https://ssp.soulapp.cn
+  [classes.dex]
+    ssp.soulapp.cn
+
+--- Pattern: type.*MW ---
+  [classes9.dex]
+    s?activityIdEcpt=NkxvZXRHbUpKVk09&pageIdEcpt=V3U2VjlYYjhScUU9&pageType=4&share2PageId=MnhWRXFOMWVGWWc9&share2UserId=
+  [classes.dex]
+    +setAutoSizeTextTypeUniformWithConfiguration
+    )setAutoSizeTextTypeUniformWithPresetSizes
+
+--- Pattern: 信息流 ---
+  [classes5.dex]
+    广告使用场景是信息流
+    却错误的调用了信息流的相关接口
+
+--- Pattern: 广告 ---
+  [classes10.dex]
+    对应的激励广告
+    无广告
+    无视频广告
+    参与比价的列表广告个数
+    策略返回后缓存广告获取成功
+    返回广告不为
+    删除广告时发生异常
+    只支持开屏广告类型
+  [classes11.dex]
+    广告构建聊天
+    广告
+    广告引流
+  [classes12.dex]
+    恋爱铃等待页看广告兑
+    灵魂匹配等待页看广告兑
+    蒙面酒馆等待页看广告兑
+    视频匹配等待页看广告兑
+    语音匹配等待页看广告兑
+  [classes13.dex]
+    广告
+    发布垃圾广告信息
+    宣传推广内容的垃圾广告
+    单个帐号多次发布包含垃圾广告的内容
+    多个广告帐号互相配合发布包含垃圾广告的内容
+    图片等方式规避垃圾广告内容审核的广告内容
+    我们会严格处理一切发广告的行为
+    各种广告
+  [classes14.dex]
+    广告被点击
+    广告关闭
+    广告已展示
+    广告视频播完
+    广告
+    加载广告成功
+    广告加载失败
+    广告未就绪
+  [classes15.dex]
+    广告
+    广告引流
+    广告骚扰
+    点击广告区域获得奖励
+    疑似广告
+  [classes16.dex]
+    广告引流
+  [classes3.dex]
+    广告
+    请求广告
+    以避免无法请求广告
+  [classes5.dex]
+    广告位
+    成功后再进行广告请求
+    接口与广告位不匹配
+    广告位是模板
+    接口请求广告
+    同时提供广告请求和回包数据
+    联调时间不影响广告填充
+    联调时间影响广告填充
+
+--- Pattern: 广场 ---
+  [classes10.dex]
+    广场
+    的内容不会再出现在你的广场
+    不在广场推荐页面
+    广场上的小哥哥使用诚意礼物才能挤入你的聊天窗哦
+    会在广场小信封中收到提醒
+    广场推荐
+    文字群组分类广场列表
+    群分类广场
+  [classes11.dex]
+    可以在关注广场刷
+    广场
+    广场加热
+    歌单广场
+  [classes12.dex]
+    广场推荐等功能
+    弹框提示浏览广场并点赞帖子
+  [classes13.dex]
+    映射广场帖子
+    仅话题广场可见
+    将派对分享至广场
+    只能在标签对应的话题广场中看见
+    广场
+    广场可见
+    广场帖子滤重
+    广场帖子滤重已
+  [classes14.dex]
+    看看广场其他瞬间吧
+    加精的帖子会在广场上优先分发
+    已为您自动刷新广场内容
+    广场
+    广场刷新完成
+    广场刷新开始
+    开始加载广场接口数据
+    推荐广场数据为空
+  [classes15.dex]
+    的内容不会再出现在你的广场
+    不在广场上进行分发
+    广场可见
+    仅话题广场可见
+    分享到广场
+    广场
+    游览广场
+    推荐广场数据为空
+  [classes16.dex]
+    广场
+    广场视频内流
+    歌单广场
+  [classes6.dex]
+    广场可见帖子才能赠送加热卡
+    改为广场可见
+  [classes9.dex]
+    广场页
+  [assets/tab_square_disappear_static_night.json]
+    广场
+  [assets/tab_square_disappear_dress_skin.json]
+    广场未选中
+  [assets/tab_square_appear_dress_skin.json]
+    广场动画
+    广场未选中
+  [assets/tab_square_disappear_static.json]
+    广场
+  [assets/tab_square_disappear_night.json]
+    夜间广场消失
+  [assets/square_dismiss_red_night.json]
+    广场
+  [assets/square_appear_red_night.json]
+    广场
+  [assets/square_dismiss_hb_night.json]
+    广场
+  [assets/square_upload_red_night.json]
+    广场
+  [assets/tab_square_appear_night.json]
+    夜间广场出现
+  [assets/square_appear_hb_night.json]
+    广场
+  [assets/square_upload_hb_night.json]
+    广场
+
+--- Pattern: 推广 ---
+  [classes10.dex]
+    本次推广期内不再显示
+    确认关闭推广广告吗
+  [classes11.dex]
+    加速推广找人中
+  [classes13.dex]
+    用户以推广曝光为目的
+    宣传推广内容的垃圾广告
+    推广链接
+    发布他人内容同时加入推广营销内容
+    试试推广提曝光
+
+--- Pattern: 达人 ---
+  [classes10.dex]
+    此群已达人数上限
+    该群已达人数上限
+  [classes11.dex]
+    关注虚拟达人
+    虚拟达人
+  [classes12.dex]
+    达人
+    此群已达人数上限
+  [classes16.dex]
+    钓鱼达人

@@ -1,0 +1,857 @@
+
+=== 2117 5D&bik=32243&pageId=PostSquare_Recommend posts=8 ===
+[0] recallSRC=76,authorId=-1 type=TEXT recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2331_63||null||0||0||1||0_0_0"
+  algID: "4.206297545617149E10"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1753782633023-00219"
+  bizClientInfo: "{\"contentList\":[\"近期发布\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"39\":\"default\",\"41\":\"default\",\"76\":\"v12\",\"87\":\"V3\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#务实家星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "78"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781361454544
+  createTimeModel: {"year": 2026, "month": 6, "day": 13}
+  diffAge: false
+  displayTime: 1781361454544
+  download: false
+  exposure: 14810
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: <dict len=245>
+  id: 4911871411
+  labelList: <list len=293>
+  likeNum: "166"
+  likeType: 0
+  liked: false
+  likes: 166
+  modifyTime: 1781361461000
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "YmpTV0pMUE0vMk5YRnBhV05La1orUT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=263>
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=1032>
+  recCardType: 0
+  recParam: "4911871411|1,602758,42062975456.171(1),76(6),md,7,ft-1,强社交,新2级,情感"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: <dict len=353>
+  relay: false
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "睡不醒💤"
+  socialLabel: "2"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: true
+  tort: false
+  type: "TEXT"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=710>
+  verticalTypeModels: [{"id": 1038, "name": "社交"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 再发一遍嘛
+有未婚的大叔吗？
+我是老阿姨，凑一下吗
+不异地
+<innerTag>#找对象</innerTag> <innerTag>#石家庄</innerTag
+[1] authorId=-1 type=IMAGE recallSRC=40 authorId=-1
+[2] recallSRC=76,authorId=-1 type=TEXT recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2331_63||null||0||0||1||0_0_0"
+  algID: "6.612200413341484E8"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  authorOnlineTime: 1781350217689
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1764167936418-02224"
+  bizClientInfo: "{\"contentList\":[\"近期发布\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"80\":\"V8\",\"41\":\"default\",\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#社交达人星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "79"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781237502466
+  createTimeModel: {"year": 2026, "month": 6, "day": 12}
+  diffAge: false
+  download: false
+  exposure: 16312
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: <dict len=261>
+  id: 4909668391
+  labelList: <list len=257>
+  likeNum: "150"
+  likeType: 0
+  liked: false
+  likes: 150
+  modifyTime: 1781237507000
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "ZzVVc1BKanltZysvZ29OU1VteVFpUT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=270>
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=1032>
+  recCardType: 0
+  recParam: "4909668391|4,11619,661220041.334(4),76(59),md,7,ft-1,强社交,新2级,无垂类"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: <dict len=353>
+  relay: false
+  sceneType: 0
+  shareNum: "1"
+  shares: 1
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "向阳花"
+  socialCardFlag: 0
+  socialLabel: "2"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "TEXT"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=710>
+  verticalTypeModels: []
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 找个固聊，唯一关注，30-40成熟稳重的
+[3] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2331_63||null||0||0||1||0_0_0"
+  algID: "131413.81546641534"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1778522701362-ugc03706"
+  bizClientInfo: "{\"contentList\":[\"18小时以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"79\":\"V5\",\"7\":\"v2\",\"41\":\"default\",\"20\":\"default\",\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#温和艺术家星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "52"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781515262626
+  createTimeModel: {"year": 2026, "month": 6, "day": 15}
+  diffAge: false
+  displayTime: 1781515262626
+  download: false
+  exposure: 25430
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: <dict len=261>
+  id: 4914320502
+  labelList: <list len=266>
+  likeNum: "167"
+  likeType: 0
+  liked: false
+  likes: 167
+  modifyTime: 1781515303000
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "cmthNktiOS9UbzVjYmFXR3FVZDBLUT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=332>
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=329>
+  recCardType: 0
+  recParam: "4914320502|21,1,131413.815(21),76(34),f,1,ft-1,非社交,新2级,生活日记"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  sceneType: 0
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "一颗牙"
+  socialCardFlag: 0
+  socialLabel: "2"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=329>
+  verticalTypeModels: [{"id": 1038, "name": "社交"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 一直对外宣称170的我：
+[4] authorId=-1 type=IMAGE recallSRC=24 authorId=-1
+[5] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2331_63||null||0||0||1||0_0_0"
+  algID: "342.98353499523614"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1774331245821-00154"
+  bizClientInfo: "{\"contentList\":[\"11小时以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"46\":\"default\",\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"LOWER26_FEMALE\":\"兴趣垂类\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#守护天使星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "7"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781541360152
+  createTimeModel: {"year": 2026, "month": 6, "day": 16}
+  diffAge: false
+  displayTime: 1781541360152
+  download: false
+  exposure: 2951
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: {"cityName": "石家庄市"}
+  id: 4914928028
+  labelList: <list len=236>
+  likeNum: "19"
+  likeType: 0
+  liked: false
+  likes: 19
+  modifyTime: 1781541513000
+  postAuthorModel: {"authorIdEcpt": "d2Y0Sjd2YVZNWUdodUl5MEpNOUVkQT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=263>
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=329>
+  recCardType: 0
+  recParam: "4914928028|119,5397,342.984(119),76(76),7,ft-1,非社交,新3级,出行"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "今天吃了两碗面"
+  socialLabel: "0"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=329>
+  verticalTypeModels: [{"id": 1005, "name": "运动"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 最解压的方式就是～～～爬山
+[6] authorId=-1 type=IMAGE recallSRC=80 authorId=-1
+[7] authorId=-1 type=IMAGE recallSRC=80 authorId=-1
+
+=== 2132 h%22%5D&bik=32243&pageId=PostSquare_City posts=8 ===
+[0] authorId=-1 type=IMAGE recallSRC=30 authorId=-1
+[1] recallSRC=76,authorId=-1 type=TEXT recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2333_752||null||0||0||1||0_0_0"
+  algID: "3.451339049963709E8"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: true
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1612884130824-02455"
+  bizClientInfo: "{\"contentList\":[\"28分钟以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"55\":\"V2\",\"79\":\"V5\",\"30\":\"V5\",\"20\":\"default\",\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#科学怪人星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "14"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781580611079
+  createTimeModel: {"year": 2026, "month": 6, "day": 16}
+  diffAge: false
+  displayTime: 1781580611079
+  download: false
+  exposure: 1919
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: {"cityName": "石家庄市"}
+  id: 4915342872
+  labelList: <list len=331>
+  likeNum: "25"
+  likeType: 0
+  liked: false
+  likes: 25
+  modifyTime: 1781580616000
+  postAuthorModel: {"authorIdEcpt": "OHFCaHBWaUo2RGhjYmFXR3FVZDBLUT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=263>
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=1041>
+  recCardType: 0
+  recParam: "4915342872|2,604471,345133904.996(2),76(22),md,7,ft-1,强社交,新2级,美食"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: <dict len=355>
+  relay: false
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "Baby爷"
+  socialLabel: "2"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "TEXT"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=712>
+  verticalTypeModels: [{"id": 1038, "name": "社交"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 约的事儿安排在下午五点了，有没人中午一起吃个饭。坐标石家庄。[呲牙笑]<innerTag>#御姐</innerTag>
+[2] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2333_752||null||0||0||1||0_0_0"
+  algID: "16789.507221442615"
+  atList: []
+  authorChatFc: 0
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: true
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1633954902683-03692"
+  bizClientInfo: "{\"contentList\":[\"6天以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"LOWER26_FEMALE\":\"兴趣垂类\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#元气才子星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "33"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781008899809
+  createTimeModel: {"year": 2026, "month": 6, "day": 9}
+  diffAge: false
+  download: false
+  exposure: 15275
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: {"cityName": "石家庄市"}
+  id: 4906046525
+  labelList: <list len=253>
+  likeNum: "66"
+  likeType: 0
+  liked: false
+  likes: 66
+  modifyTime: 1781133759000
+  postAuthorModel: {"authorIdEcpt": "T2J5cFBDdzZsTDhxVVNCSWZSZjNlUT09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=336>
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "cwgrqp"
+  rawUserPostAreaViewList: <list len=322>
+  recCardType: 0
+  recParam: "4906046525|35,48497,16789.507(35),76(12),f,7,ft-1,非社交,新2级,家居家装"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "那个栗子🌰"
+  socialLabel: "0"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=322>
+  verticalTypeModels: [{"id": 1022, "name": "职场"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 准备把地下室改造成工作室，虽然小小的一间我也要把它打造成我想要的样子。
+[3] authorId=-1 type=TEXT recallSRC=41 authorId=-1
+[4] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2333_752||null||0||0||1||0_0_0"
+  algID: "136.35309417131788"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: true
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1757656683977-00268"
+  bizClientInfo: "{\"contentList\":[\"21分钟以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"55\":\"V2\",\"24\":\"default\",\"7\":\"v2\",\"30\":\"V5\",\"76\":\"v12\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#艺术家星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "7"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781581042732
+  createTimeModel: {"year": 2026, "month": 6, "day": 16}
+  diffAge: false
+  displayTime: 1781581042732
+  download: false
+  exposure: 1158
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: <dict len=261>
+  id: 4915349438
+  labelList: <list len=226>
+  likeNum: "3"
+  likeType: 0
+  liked: false
+  likes: 3
+  modifyTime: 1781581312000
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "a1NUYU01UjFrYVRnQkp2UDhiV2VUdz09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=332>
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=329>
+  recCardType: 0
+  recParam: "4915349438|139,0,136.353(139),76(48),7,ft-1,暂无,医疗健康"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  sceneType: 0
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "小羊又串."
+  socialCardFlag: 0
+  socialLabel: "0"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "UNCHECK_NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: true
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=329>
+  verticalTypeModels: [{"id": 1025, "name": "教育"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 医科大造影剂  好烦呀，造影剂必须要人陪同  有没有人能冒充一下我的朋友[捂脸哭] 5点5点 
+[5] authorId=-1 type=IMAGE recallSRC=20 authorId=-1
+[6] authorId=-1 type=IMAGE recallSRC=79 authorId=-1
+[7] authorId=-1 type=IMAGE recallSRC=30 authorId=-1
+
+=== 1977 5D&bik=32243&pageId=PostSquare_Recommend posts=7 ===
+[0] authorId=-1 type=IMAGE recallSRC=87 authorId=-1
+[1] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2301_168||null||0||0||1||0_0_0"
+  algID: "153.07746952202498"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1639232699193-00725"
+  bizClientInfo: "{\"contentList\":[\"1小时以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"55\":\"V2\",\"46\":\"default\",\"39\":\"default\",\"80\":\"V8\",\"20\":\"default\",\"76\":\"v12\"},\"trackingData\":{\"YoungUserBoost\":\"玩乐面基\",\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#元气才子星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "9"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781577338132
+  createTimeModel: {"year": 2026, "month": 6, "day": 16}
+  diffAge: false
+  displayTime: 1781577338132
+  download: false
+  exposure: 3665
+  exposureProgress: 0
+  firstPost: false
+  followNum: "0"
+  followed: false
+  follows: 0
+  geoPositionInfo: <dict len=221>
+  id: 4915291446
+  labelList: <list len=280>
+  likeNum: "28"
+  likeType: 0
+  liked: false
+  likes: 28
+  modifyTime: 1781577779000
+  mutual: false
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "bVhGMG53ZW1keHpWVlgvZUh1NEExdz09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: <dict len=346>
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=328>
+  recCardType: 0
+  recParam: "4915291446|5,4241,153.077(5),76(1),1,ft-1,新2级,玩乐"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  sceneType: 0
+  shareNum: "0"
+  shares: 0
+  showAiCommentFlag: false
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "岩中花述"
+  socialCardFlag: 0
+  socialLabel: "2"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=328>
+  verticalTypeModels: [{"id": 1038, "name": "社交"}]
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 找个搭子，我请电影你请饭，已婚勿扰！有诚意的，带着自我介绍和照片来~
+[2] recallSRC=76,authorId=-1 type=IMAGE recallSRC=76 authorId=-1
+  adminTopped: false
+  algExt: "76||10829327_2301_168||null||0||0||1||0_0_0"
+  algID: "132.14691187355643"
+  atList: []
+  authorChatFc: 1
+  authorFollowMe: false
+  authorId: -1
+  authorOnline: false
+  authorOnlineTime: 1781582186805
+  autoQuality: false
+  avatarColor: "HeaderColor_Default"
+  avatarName: "avatar-1718128863628-03030"
+  bizClientInfo: "{\"contentList\":[\"15小时以前\"]}"
+  buttonType: 2
+  clientTrackInfo: "{\"recallMap\":{\"55\":\"V2\",\"46\":\"default\",\"48\":\"default\",\"80\":\"V8\",\"76\":\"v12\",\"87\":\"V3\"},\"trackingData\":{\"event_postimage_media_clicked\":\"1\",\"event_userhome_post_avatarClicked\":\"1\",\"event_post_txt_fold\":\"1\"}}"
+  collected: false
+  comeFrom: "来自#元气才子星球"
+  commentAccessType: 0
+  commentFlag: true
+  commentNum: "23"
+  commodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  createTime: 1781527339631
+  createTimeModel: {"year": 2026, "month": 6, "day": 15}
+  diffAge: false
+  displayTime: 1781527339631
+  download: false
+  exposure: 19131
+  exposureProgress: 0
+  firstPost: false
+  followNum: "1"
+  followed: false
+  follows: 1
+  geoPositionInfo: {"locationStr": "RFJEWDdRZDI5dGlKYnBjYnl6Ujk3TG0rUmsySENENWtZUVdlOUZBTmVhRElaNG03a3hWVitTaWwrTXUramU0R3VzOHAxVDVLN2VNPQ==", "position": "石家庄市", "showPosition": true, "cityCode": 130100}
+  id: 4914560650
+  labelList: <list len=260>
+  likeNum: "141"
+  likeType: 0
+  liked: false
+  likes: 141
+  modifyTime: 1781568092000
+  mutual: false
+  position: "石家庄市"
+  postAuthorModel: {"authorIdEcpt": "ZVYzUHpJaS9ZMzJIY0JMSUs3VlMxZz09", "authorId": -1, "gender": 1, "avatarGuideFlag": false}
+  postExtModel: {"firstPost": false, "edit": false, "commentAccessType": 0, "realExposureFlag": false, "usedAiFlag": 0, "originalStatementFlag": false, "socialIntention": "非社交", "publishSource": "post"}
+  postMaterialsInfo: []
+  postPraiseBizType: 1
+  praiseEffectDailyLimit: 0
+  praiseEffectId: 0
+  promptLabelMaps: {"exposure": {}}
+  publishPageFrom: "post"
+  rawUserPostAreaViewList: <list len=329>
+  recCardType: 0
+  recParam: "4914560650|6,18558,132.147(6),76(90),1,ft-1,非社交,新2级,出行"
+  recReasonList: []
+  recallSRC: 76
+  recentChatUser: false
+  recommendInfo: {"relationshipActivate": false, "postQualityModel": {"highQuality": false, "applyFlag": false}}
+  relay: false
+  shareNum: "2"
+  shares: 2
+  showAiCommentFlag: true
+  showNoRelation: false
+  showPromote: false
+  showSuperVIP: true
+  signature: "幼稚园新同学👩‍🎓"
+  socialLabel: "0"
+  soulmate: false
+  soulmateCommodityUrl: "https://china-img.soulapp.cn/placeholder/leucocyte-empty-1.png"
+  soulmateUserId: -1
+  ssr: false
+  state: "NORMAL"
+  superVIP: false
+  superstar: false
+  tailAnchorShowType: 0
+  tailAnchors: []
+  topped: false
+  tort: false
+  type: "IMAGE"
+  underAge: false
+  usedAiFlag: 0
+  userPostAreaViewFirstList: []
+  userPostAreaViewSecondList: <list len=329>
+  verticalTypeModels: []
+  visibility: "PUBLIC"
+  weather: "晴"
+  wornMedals: []
+  content: 留村夜市走一走[小害羞]
+[3] authorId=-1 type=IMAGE recallSRC=80 authorId=-1
+[4] authorId=-1 type=IMAGE recallSRC=80 authorId=-1
+[5] authorId=-1 type=TEXT recallSRC=21 authorId=-1
+[6] authorId=-1 type=IMAGE recallSRC=41 authorId=-1
+
+=== 2149 h%22%5D&bik=32243&pageId=PostSquare_City posts=8 ===
+[0] authorId=-1 type=IMAGE recallSRC=30 authorId=-1
+[1] authorId=-1 type=TEXT recallSRC=80 authorId=-1
+[2] authorId=-1 type=IMAGE recallSRC=30 authorId=-1
+[3] authorId=-1 type=TEXT recallSRC=87 authorId=-1
+[4] authorId=-1 type=IMAGE recallSRC=42 authorId=-1
+[5] authorId=-1 type=TEXT recallSRC=24 authorId=-1
+[6] authorId=-1 type=IMAGE recallSRC=40 authorId=-1
+[7] authorId=-1 type=TEXT recallSRC=42 authorId=-1
+
+=== recallSRC distribution ===
+  recallSRC=76: 9
+  recallSRC=80: 5
+  recallSRC=30: 4
+  recallSRC=87: 2
+  recallSRC=41: 2
+  recallSRC=40: 2
+  recallSRC=24: 2
+  recallSRC=42: 2
+  recallSRC=21: 1
+  recallSRC=20: 1
+  recallSRC=79: 1
+
+=== recallSRC x authorId ===
+  (76, -1): 9
+  (80, -1): 5
+  (30, -1): 4
+  (87, -1): 2
+  (41, -1): 2
+  (40, -1): 2
+  (24, -1): 2
+  (42, -1): 2
+  (21, -1): 1
+  (20, -1): 1
+  (79, -1): 1
+
+=== ssp/ad endpoints in capture ===
+  [1963] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94872c%22%2C%22--%22%2C%22Apple%22%2C%
+  [1964] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece948731%22%2C%22--%22%2C%22Apple%22%2C%
+  [1965] https://increase-openapi.soulapp.cn/increase/incentive/noticeActivity?bi=%5B%2219ece94874a%22%2C%22--%22%2C%22Apple%22%2
+  [1968] https://increase-openapi.soulapp.cn/increase/lowActivity/getUndertakeStatus?bi=%5B%2219ece948854%22%2C%22--%22%2C%22Appl
+  [1969] https://increase-openapi.soulapp.cn/increase/icon/syncIcon?bi=%5B%2219ece948859%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%
+  [2012] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94d007%22%2C%22--%22%2C%22Apple%22%2C%
+  [2013] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94d009%22%2C%22--%22%2C%22Apple%22%2C%
+  [2103] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94f8b3%22%2C%22--%22%2C%22Apple%22%2C%
+  [2104] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94f8bc%22%2C%22--%22%2C%22Apple%22%2C%
+  [2107] https://increase-openapi.soulapp.cn/increase/incentive/noticeActivity?bi=%5B%2219ece94f8c6%22%2C%22--%22%2C%22Apple%22%2
+  [2110] https://increase-openapi.soulapp.cn/increase/lowActivity/getUndertakeStatus?bi=%5B%2219ece94f9e3%22%2C%22--%22%2C%22Appl
+  [2111] https://increase-openapi.soulapp.cn/increase/icon/syncIcon?bi=%5B%2219ece94f9eb%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%
+  [2115] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94fd67%22%2C%22--%22%2C%22Apple%22%2C%
+  [2116] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece94fd68%22%2C%22--%22%2C%22Apple%22%2C%
+  [2170] https://increase-openapi.soulapp.cn/increase/lowActivity/getUndertakeStatus?bi=%5B%2219ece9525e7%22%2C%22--%22%2C%22Appl
+  [2171] https://increase-openapi.soulapp.cn/increase/icon/syncIcon?bi=%5B%2219ece9525f0%22%2C%22--%22%2C%22Apple%22%2C%22iOS%22%
+  [2246] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece9546a0%22%2C%22--%22%2C%22Apple%22%2C%
+  [2247] https://increase-openapi.soulapp.cn/increase/fission/receiveRewards?bi=%5B%2219ece9546a2%22%2C%22--%22%2C%22Apple%22%2C%
